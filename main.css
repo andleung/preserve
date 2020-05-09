@@ -1,0 +1,49 @@
+* { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; text-decoration: none; list-style: none;  }
+
+@font-face { font-family: 'SuisseIntl'; src: url(../assets/fonts/suisseintl-book-webfont.woff2), url(../assets/fonts/suisseintl-book-webfont.woff); }
+
+body { font-family: 'SuisseIntl', sans-serif; font-size: 1rem; color: #306f08; background-color: #f4f3ef; max-width: 100%; overflow: hidden; }
+a { color: #306f08; }
+a:visited { color: #306f08; }
+a:hover { color: #e13500; }
+a:active { color: #306f08; }
+h1 { position: absolute; top: 32px; left: 32px; }
+h2 { position: absolute; top: 32px; left: 50vw; padding-left: 32px; }
+nav { background-color: #f4f3ef; border-style: solid;border-width: 0px 0px 1px 0px; }
+li { border-style: solid; border-width: 1px 0px 0px 0px; }
+
+#iconMenu { position: fixed; top: 32px; right: 32px; height: 36px; width: 36px; }
+#iconClose { position: absolute; top: 32px; right: 32px; height: 36px; width: 36px; }
+.logo {max-height: 48px; z-index: 3; }
+.headerBackground { position: absolute; top: 0px; height: 100px; width: 100%; background-color: #f4f3ef; }
+.recipeList { margin-top: 100px; }
+.recipeList li { padding: 16px 0px 6px 32px; }
+.navClock { transform: translateY(-4px); height: 24px; width: 24px; }
+.navTime { position: absolute; left: 72px; }
+.navRecipeTitle { position: absolute; left: 50vw; padding-left: 32px; }
+
+.logoVertical { position: absolute; bottom: 5vh; left: 5vh; height: 90vh; }
+
+.illustrationContainer { position: absolute; bottom: 32px; right: 32px; }
+.illustration { width: 75vw; }
+
+.logoCompactContainer { position: absolute; display: flex; justify-content: center; align-items: center; transform: translateY(-5%); height: 100%; width: 100%; z-index: -1; visibility: hidden;  }
+.logoCompact {  width: 90vw; }
+
+.overlay { transform: translateY(-100vh); height: 100%; width: 100%; position: fixed; z-index: 2; left: 0; top: 0; overflow-y: hidden; transition: 1.25s; }
+
+@media screen and (max-width: 768px) {
+
+  h2 { left: initial; }
+
+  .logoVertical { visibility: hidden; }
+  .logoCompactContainer { visibility: visible; }
+  .illustrationContainer { position: initial; position: absolute; bottom: 32px; left: 50%;  }
+  .illustration { width: 90vw; transform: translateX(-50%); }
+  .logo { max-height: 32px; transform: translateY(6px); }
+  .taglineNav { visibility: hidden; }
+  .navClock { visibility: hidden; }
+  .navTime { visibility: hidden; }
+  .navRecipeTitle { left: 32px; padding-left: initial; }
+
+}
