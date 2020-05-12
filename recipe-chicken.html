@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta lang="en" />
+  <title>Roast chicken with root vegetables</title>
+  <meta name="description" content="A collection of simple recipes" />
+  <meta name="keywords" content="preserve,recipes,food,cooking,chicken,comfort,roast" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/recipe.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <a href="javascript:void(0)"><img id="iconMenu" onclick="openNav()" src="assets/icon-menu.svg" alt="menu"></a>
+
+  <div id="dropNav" class="overlay">
+    <div class="headerBackground"></div>
+    <a href="javascript:void(0)"><img id="iconClose" onclick="closeNav()" src="assets/icon-close.svg" alt="close"></a>
+    <h1><a href="index.html"><img class="logo" src="assets/logo.svg" alt="Preserve"></a></h1>
+    <h2 class="taglineNav">A collection<br>of simple recipes.</h2>
+
+    <nav>
+      <ul class="recipeList">
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">30 min</span><a href="recipe-bakedeggs.html" class="navRecipeTitle">Baked eggs &amp; tomatoes</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">15 min</span><a href="recipe-dandelionleaves.html" class="navRecipeTitle">Dandelion leaves with garlic</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">20 min</span><a href="recipe-cauliflowerrice.html" class="navRecipeTitle">Cauliflower &amp; parsley rice</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">10 min</span><a href="recipe-steak.html" class="navRecipeTitle">Steak with butter &amp; herbs</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">30 min</span><a href="recipe-spaghetti.html" class="navRecipeTitle">Spaghetti with caramelized onions</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">1.5 hr</span><a href="recipe-chicken.html" class="navRecipeTitle">Roast chicken with root vegtables</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">2.5 hr</span><a href="recipe-pozole.html" class="navRecipeTitle">Pork shoulder pozole rojo</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">3 min</span><a href="recipe-milkshake.html" class="navRecipeTitle">Cinnamon &amp; almond milkshake</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="vr"></div>
+
+  <div class="ingredientsContainer">
+    <p class="ingredients">
+      <img class="ingredientsClock" src="assets/icon-clock.svg">1.5 hr<span class="servings">(Serves 4)<span>
+        <br><br><br>
+        <span class="underline">Ingredients</span>
+        <br><br>
+        <span class="ingredientsList">
+          1 whole chicken
+          <br>
+          1 large yellow onion, quartered
+          <br>
+          1 head of garlic
+          <br>
+          1 potato, chopped into wedges
+          <br>
+          2 large carrots, chopped into thirds
+          <br>
+          1 lemon, cut in half
+          <br>
+          1 tbsp. butter
+          <br>
+          3 tbsp. extra-virgin olive oil
+          <br>
+          2 sprigs of rosemary
+          <br>
+          Salt &amp; pepper
+        </p>
+      </div>
+
+      <div class="instructionsContainer">
+        <p class="instructions">
+          01.
+          <br><br>
+          This recipe roasts a whole chicken over a bed of vegetables for an easy one pan dish.
+          <br><br>
+          Preheat oven to 425 degrees.
+          <br><br>
+          Clean chicken and remove the innards. Pat dry and rub butter into and under the skin, then season inside and out with salt and pepper. Stuff the chicken cavity with the lemon and rosemary sprigs.
+          <br><br>
+          02.
+          <br><br>
+          Place the onion, carrots, and potatoes into a large baking pan and toss with olive oil, salt and pepper. Spread the vegetables across the bottom and place the chicken directly on top.
+          <br><br>
+          03.
+          <br><br>
+          Roast in the oven until chicken temperature reaches 165 degrees, about 1 to 1.5 hours depending on the size of the bird.
+          <br><br>
+          Remove from oven and let rest for at least 10 minutes before serving.
+        </p>
+      </div>
+
+      <div class="headerBackgroundRecipe"></div>
+      <h1 class="recipeLogo"><a href="index.html"><img class="logo" src="assets/logo.svg" alt="Preserve"></a></h1>
+      <h2 class="recipeTagline">Roast chicken<br>with root vegetables</h2>
+
+      <script>
+      function openNav() {
+        document.getElementById("dropNav").style.transform = "translateY(0vh)";
+      }
+
+      function closeNav() {
+        document.getElementById("dropNav").style.transform = "translateY(-100vh)";
+      }
+      </script>
+    </body>
+    </html>

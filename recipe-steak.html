@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta lang="en" />
+  <title>Steak with butter &amp; herbs</title>
+  <meta name="description" content="A collection of simple recipes" />
+  <meta name="keywords" content="preserve,recipes,food,cooking,steak,butter,herbs,cast,iron" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="css/recipe.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <a href="javascript:void(0)"><img id="iconMenu" onclick="openNav()" src="assets/icon-menu.svg" alt="menu"></a>
+
+  <div id="dropNav" class="overlay">
+    <div class="headerBackground"></div>
+    <a href="javascript:void(0)"><img id="iconClose" onclick="closeNav()" src="assets/icon-close.svg" alt="close"></a>
+    <h1><a href="index.html"><img class="logo" src="assets/logo.svg" alt="Preserve"></a></h1>
+    <h2 class="taglineNav">A collection<br>of simple recipes.</h2>
+
+    <nav>
+      <ul class="recipeList">
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">30 min</span><a href="recipe-bakedeggs.html" class="navRecipeTitle">Baked eggs &amp; tomatoes</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">15 min</span><a href="recipe-dandelionleaves.html" class="navRecipeTitle">Dandelion leaves with garlic</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">20 min</span><a href="recipe-cauliflowerrice.html" class="navRecipeTitle">Cauliflower &amp; parsley rice</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">10 min</span><a href="recipe-steak.html" class="navRecipeTitle">Steak with butter &amp; herbs</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">30 min</span><a href="recipe-spaghetti.html" class="navRecipeTitle">Spaghetti with caramelized onions</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">1.5 hr</span><a href="recipe-chicken.html" class="navRecipeTitle">Roast chicken with root vegtables</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">2.5 hr</span><a href="recipe-pozole.html" class="navRecipeTitle">Pork shoulder pozole rojo</a></li>
+        <li><img class="navClock" src="assets/icon-clock.svg"><span class ="navTime">3 min</span><a href="recipe-milkshake.html" class="navRecipeTitle">Cinnamon &amp; almond milkshake</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="vr"></div>
+
+  <div class="ingredientsContainer">
+    <p class="ingredients">
+      <img class="ingredientsClock" src="assets/icon-clock.svg">10 min<span class="servings">(Serves 2)<span>
+        <br><br><br>
+        <span class="underline">Ingredients</span>
+        <br><br>
+        <span class="ingredientsList">
+          2 steaks of your choice
+          <br>
+          2 sprigs rosemary
+          <br>
+          4 sprigs thyme
+          <br>
+          1/4 stick butter
+          <br>
+          Salt &amp; pepper
+        </p>
+      </div>
+
+      <div class="instructionsContainer">
+        <p class="instructions">
+          01.
+          <br><br>
+          Prior to cooking, remove steak from the fridge, covered, and bring to room temperature.
+          <br><br>
+          Preheat the oven to 425 degrees. On the stovetop place a cast iron skillet over medium to high heat.
+          <br><br>
+          02.
+          <br><br>
+          Once the pan is very hot, add butter, herbs, and steak. Sear for about 2 minutes on each side, basting with the butter and herbs.
+          <br><br>
+          Transfer the entire pan to the oven. Be careful as the pan will be very hot.
+          <br><br>
+          03.
+          <br><br>
+          Bake about 5 minutes for a rare steak, or a bit longer depending on desired level of doneness.
+          <br><br>
+          Remove steak from the oven and transfer to a cutting board. Season all over with salt and pepper. Let sit at least  5-10 minutes before serving to let the juices settle.
+        </p>
+      </div>
+
+      <div class="headerBackgroundRecipe"></div>
+      <h1 class="recipeLogo"><a href="index.html"><img class="logo" src="assets/logo.svg" alt="Preserve"></a></h1>
+      <h2 class="recipeTagline">Steak with<br>butter &amp; herbs</h2>
+
+      <script>
+      function openNav() {
+        document.getElementById("dropNav").style.transform = "translateY(0vh)";
+      }
+
+      function closeNav() {
+        document.getElementById("dropNav").style.transform = "translateY(-100vh)";
+      }
+      </script>
+    </body>
+    </html>
