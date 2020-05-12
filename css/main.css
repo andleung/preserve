@@ -22,7 +22,7 @@ li { border-style: solid; border-width: 1px 0px 0px 0px; }
 .navTime { position: absolute; left: 72px; }
 .navRecipeTitle { position: absolute; left: 50vw; padding-left: 32px; }
 
-.logoVertical { position: absolute; bottom: 5vh; left: 5vh; height: 90vh; }
+.logoVertical { position: absolute; bottom: 32px; left: 32px; height: 92vh; }
 
 .illustrationContainer { position: absolute; bottom: 32px; right: 32px; }
 .illustration { width: 75vw; }
@@ -32,7 +32,7 @@ li { border-style: solid; border-width: 1px 0px 0px 0px; }
 
 .overlay { transform: translateY(-100vh); height: 100%; width: 100%; position: fixed; z-index: 2; left: 0; top: 0; overflow-y: hidden; transition: 1.25s; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
   h2 { left: initial; }
 
@@ -45,5 +45,11 @@ li { border-style: solid; border-width: 1px 0px 0px 0px; }
   .navClock { visibility: hidden; }
   .navTime { visibility: hidden; }
   .navRecipeTitle { left: 32px; padding-left: initial; }
+
+}
+
+@media screen and (max-height: 414px) {
+
+  .logoCompactContainer { visibility: hidden; }
 
 }
